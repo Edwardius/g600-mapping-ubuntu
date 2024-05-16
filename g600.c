@@ -44,17 +44,15 @@ const char *downCommands[] = {
   [13] = "ydotool key 125:1 108:1 108:0 125:0", // G-Shift G17 un-fullscreen
   [8] = "", // G-Shift G18
   [15] = "", // G-Shift G19
-  [14] = "ydotool key 28:1 28:0", // G-Shift G20
+  [14] = "ydotool key 28:1 28:0", // G-Shift G20 Enter
   
   [21] = "ydotool key 29:1 42:1 49:1 49:0 42:0 29:0", // G-Shift G7 new terminal window
   [28] = "", // G-Shift Wheel Right
   [29] = "" // G-Shift Wheel Left
 
 };
-const char *upCommands[] = {
-  //[scancode] = "command to run",
-  [37] = "echo button up"
-};
+// You can add different commands when the button is lifted here, formatted like above
+const char *upCommands[64]; 
 
 int starts_with(const char* haystack, const char* prefix) {
   size_t prefix_length = strlen(prefix), haystack_length = strlen(haystack);
