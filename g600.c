@@ -50,38 +50,38 @@ const char *downCommands[] = {
   // [37] = "echo button down"
 
   // REGULAR KEYS
-  [30] = "xdotool key l+m+a+o", // G9
-  [31] = "xdotool key ctrl+w", // G10
-  [32] = "xdotool key ctrl+f", // G11
-  [33] = "xdotool key ctrl+v", // G12
-  [34] = "xdotool key Super+Left", // G13
-  [35] = "xdotool key ctrl+t", // G14
-  [36] = "xdotool key ctrl+c", // G15
-  [37] = "xdotool key Super+Right", // G16
-  [38] = "xdotool key Super+Up", // G17
-  [46] = "xdotool key F11", // G18
-  [56] = "xdotool key F10", // G19
-  [48] = "xdotool key F5", // G20
+  [30] = "xdotool key l+m+a+o", // G9 types lmao
+  [31] = "xdotool key ctrl+w", // G10 closes tab
+  [32] = "xdotool key ctrl+f", // G11 search
+  [33] = "xdotool key ctrl+v", // G12 paste
+  [34] = "xdotool key Super+Left", // G13 window left
+  [35] = "xdotool key ctrl+t", // G14 new tab
+  [36] = "xdotool key ctrl+c", // G15 copy
+  [37] = "xdotool key Super+Right", // G16 window right
+  [38] = "xdotool key Super+Up", // G17 full window
+  [46] = "xdotool key F11", // G18 vscode step in
+  [56] = "xdotool key F10", // G19 vscode step over
+  [48] = "xdotool key F5", // G20 vscode start debug
   
-  [54] = "xdotool key ctrl+n", // G7
-  [49] = "xdotool key End", // Wheel Right
-  [47] = "xdotool key Home", // Wheel Left
+  [54] = "xdotool key ctrl+n", // G7 new window
+  [49] = "xdotool key End", // Wheel Right goto end of line
+  [47] = "xdotool key Home", // Wheel Left goto start of line
 
   // G-SHIFT KEYS
-  [5] = "xdotool key Super+1", // G-Shift G9
-  [4] = "xdotool key Super+2", // G-Shift G10
-  [11] = "xdotool key Super+3", // G-Shift G11
-  [6] = "xdotool key ctrl+shift+v", // G-Shift G12
-  [10] = "xdotool key ctrl+Page_Up", // G-Shift G13
-  [12] = "xdotool key ctrl+shift+t", // G-Shift G14
-  [7] = "xdotool key ctrl+shift+c", // G-Shift G15
-  [9] = "xdotool key ctrl+Page_Down", // G-Shift G16
-  [13] = "xdotool key Super+Down", // G-Shift G17
+  [5] = "xdotool key Super+1", // G-Shift G9 start/open application 1
+  [4] = "xdotool key Super+2", // G-Shift G10 start/open application 2
+  [11] = "xdotool key Super+3", // G-Shift G11 start/open application 3
+  [6] = "xdotool key ctrl+shift+v", // G-Shift G12 paste in terminal
+  [10] = "xdotool key ctrl+Page_Up", // G-Shift G13 switch to left tab
+  [12] = "xdotool key ctrl+shift+t", // G-Shift G14 new tab in terminal
+  [7] = "xdotool key ctrl+shift+c", // G-Shift G15 copy in terminal
+  [9] = "xdotool key ctrl+Page_Down", // G-Shift G16 switch to right tab
+  [13] = "xdotool key Super+Down", // G-Shift G17 un-fullscreen
   [8] = "", // G-Shift G18
   [15] = "", // G-Shift G19
   [14] = "xdotool key Enter", // G-Shift G20
   
-  [21] = "xdotool key ctrl+shift+n", // G-Shift G7
+  [21] = "xdotool key ctrl+shift+n", // G-Shift G7 new terminal window
   [28] = "", // G-Shift Wheel Right
   [29] = "" // G-Shift Wheel Left
 
