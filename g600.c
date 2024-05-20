@@ -52,7 +52,7 @@ const char *downCommands[] = {
 
 };
 // You can add different commands when the button is lifted here, formatted like above
-const char *upCommands[64]; 
+const char *upCommands[64];
 
 int starts_with(const char* haystack, const char* prefix) {
   size_t prefix_length = strlen(prefix), haystack_length = strlen(haystack);
