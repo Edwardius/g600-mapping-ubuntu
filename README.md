@@ -75,7 +75,7 @@ Verify that the service is running correctly:
     sudo systemctl status ydotool.service
 ```
 
-This will ensure that your g600 executable runs automatically when your system starts and will be restarted automatically if it fails.
+This will ensure that your ydotoold executable runs automatically when your system starts and will be restarted automatically if it fails.
 
 ### Setup Mapping Script
 1. Clone this repository.
