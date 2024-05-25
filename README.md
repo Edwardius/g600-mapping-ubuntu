@@ -155,7 +155,7 @@ sudo systemctl start g600.service
 Verify that the service is running correctly:
 
 ```sh
-    sudo systemctl status g600.service
+sudo systemctl status g600.service
 ```
 
 This will ensure that your g600 executable runs automatically when your system starts and will be restarted automatically if it fails.
